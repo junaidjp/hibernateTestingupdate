@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.junaid.Hibernate.UserBean" table="user" lazy="false">
+		
+		<id name="id"  column="id">
+			<generator class="increment" />
+		</id>
+		
+		<property name="username">
+			<column name="username" />
+		</property>
+		<property name="password">
+			<column name="password" />
+		</property>
+		
+	<!-- 
+	 <many-to-one name="Address" class="com.junaid.Hibernate.Address"
+            column="user_id" unique="true" not-null="true"
+            cascade="all" />
+	
+	 -->
+	
+</class>
+</hibernate-mapping>

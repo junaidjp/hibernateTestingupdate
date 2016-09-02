@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="HibernateTesting/src"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/mysql-connector-java-5.1.16-bin.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="HibernateTesting/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="HibernateTesting/bin"/>
+</classpath>
